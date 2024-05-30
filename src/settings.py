@@ -14,6 +14,6 @@ DARK_MODE: str = 'Dark'
     ----------------------------
 """
 
-GREEN: str = 'Green'
-BLUE: str = 'Blue'
-DARK_BLUE = 'Dark-Blue'
+GREEN: str = 'green'
+BLUE: str = 'blue'
+DARK_BLUE = 'dark-blue'

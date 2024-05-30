@@ -29,4 +29,3 @@ class TunixApp(customtkinter.CTk):
         self.main_content = TunixMainPage(self, self.change_color_theme)
         self.main_content.pack(pady=10, padx=10, expand=True, fill=customtkinter.BOTH)
         self.current_ui.append(self.main_content)
-        
