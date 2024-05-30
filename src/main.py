@@ -13,9 +13,10 @@ def main() -> None:
     
     tunix = Tunix()
     tmp = TunixMusicPlayer()
-    tmp.load('./music/song1.mp3')
-    tmp.play()
-    input('Exit: ')
+    tunix.run()
+    #tmp.load('./music/song1.mp3')
+    #tmp.play()
+    #input('Exit: ')
     
 
 if __name__ == "__main__":
