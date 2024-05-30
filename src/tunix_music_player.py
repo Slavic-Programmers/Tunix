@@ -25,3 +25,7 @@ class TunixMusicPlayer:
     
     def unpause(self) -> None:
         pygame.mixer.music.unpause()
+        
+
+    def is_playing(self) -> bool:
+        return pygame.mixer.music.get_busy()
