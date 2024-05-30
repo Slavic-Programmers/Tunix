@@ -9,6 +9,7 @@ def set_path() -> None:
 
 def main() -> None:
     set_path()
+    os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
     
     tunix = Tunix()
     tmp = TunixMusicPlayer()

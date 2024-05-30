@@ -14,3 +14,14 @@ class TunixMusicPlayer:
     def play(self) -> None:
         pygame.mixer.music.play(loops=0, start=0, fade_ms=0)
         
+        
+    def stop(self) -> None:
+        pygame.mixer.music.stop()
+        
+    
+    def pause(self) -> None:
+        pygame.mixer.music.pause()
+        
+    
+    def unpause(self) -> None:
+        pygame.mixer.music.unpause()
