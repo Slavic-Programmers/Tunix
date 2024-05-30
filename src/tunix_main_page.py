@@ -16,7 +16,7 @@ class TunixMainPage(customtkinter.CTkFrame):
         self.__color_theme_chooser_label = customtkinter.CTkLabel(master=self, text="Color Theme:", justify=customtkinter.CENTER, anchor=customtkinter.SW)
         self.__color_theme_chooser_label.pack(pady=10, padx=10)
         
-        self.__color_theme_option_menu = customtkinter.CTkOptionMenu(master=self, values=['green', 'blue', 'dark-blue'], command=change_color_theme)
+        self.__color_theme_option_menu = customtkinter.CTkOptionMenu(master=self, values=[BLUE, GREEN, DARK_BLUE], command=change_color_theme)
         self.__color_theme_option_menu.pack(pady=10, padx=10)
         self.__color_theme_option_menu.set("Color Theme")
         
