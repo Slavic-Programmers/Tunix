@@ -4,9 +4,9 @@ from settings import *
 
 class Tunix:
     def __init__(self) -> None:
-        self.__root = tkinter.Tk()
-        self.__root.geometry('400x400')
-        self.__root.title('Tunix')
+        self.__app = customtkinter.CTk()
+        self.__app.geometry('400x400')
+        self.__app.title('Tunix')
         customtkinter.set_appearance_mode(SYSTEM_MODE)
         
         
@@ -14,4 +14,4 @@ class Tunix:
         
 
     def run(self) -> None:
-        self.__root.mainloop()
+        self.__app.mainloop()
