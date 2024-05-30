@@ -8,7 +8,7 @@ class TunixApp(customtkinter.CTk):
         super().__init__()
         
         customtkinter.set_appearance_mode(SYSTEM_MODE)
-        customtkinter.set_default_color_theme("blue")
+        customtkinter.set_default_color_theme(BLUE)
         self.geometry("400x400")
         self.title("Tunix")
         
