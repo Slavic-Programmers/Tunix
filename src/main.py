@@ -11,11 +11,13 @@ def main() -> None:
     set_path()
     os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
     
-    tunix = Tunix()
     tmp = TunixMusicPlayer()
-    tmp.load('./music/song1.mp3')
-    tmp.play()
-    input('Exit: ')
+    
+    tunix = Tunix()
+    tunix.run()
+    #tmp.load('./music/song1.mp3')
+    #tmp.play()
+    #input('Exit: ')
     
 
 if __name__ == "__main__":
